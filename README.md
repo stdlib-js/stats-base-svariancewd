@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.svariancewd;
+})();
 })();
 </script>
 ```
@@ -223,6 +225,7 @@ var v = svariancewd.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-svariancewd@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -236,6 +239,7 @@ console.log( x );
 var v = svariancewd( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -348,7 +352,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -358,15 +362,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dvariancewd]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/umd
+[@stdlib/stats/base/dvariancewd]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanvariancewd]: https://github.com/stdlib-js/stats-base-snanvariancewd/tree/umd
+[@stdlib/stats/base/snanvariancewd]: https://github.com/stdlib-js/stats-base-snanvariancewd/tree/umd/tree/umd
 
-[@stdlib/stats/base/sstdevwd]: https://github.com/stdlib-js/stats-base-sstdevwd/tree/umd
+[@stdlib/stats/base/sstdevwd]: https://github.com/stdlib-js/stats-base-sstdevwd/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd
+[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancewd]: https://github.com/stdlib-js/stats-base-variancewd/tree/umd
+[@stdlib/stats/base/variancewd]: https://github.com/stdlib-js/stats-base-variancewd/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
